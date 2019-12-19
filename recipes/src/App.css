@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  background-image: linear-gradient(to top, #f5be8b 0%, #f5ae45 100%);
 }
 
 
@@ -12,20 +12,52 @@ align-items: center;
 }
 
 .search-bar {
-  width: 50%;
+  width: 30%;
   border: none;
+  border-radius: 20px;
   padding: 10px;
+  height: 30px;
 }
 
-.search.button {
-  background: lightcoral;
-  border: none;
-  padding: 10px 20px;
-  color: white;
+button {
+color: white ;
+background-color: rgb(26, 58, 100);
+border: none;
+border-radius: 20px;
+width: 100px;
+height: 40px;
+margin-left: 5px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+text-transform: uppercase;
 }
 
 .recipes {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  
+}
+
+h1 { max-width: 50%;
+  color:rgb(26, 58, 100);
+  font-family: verdana;
+  text-transform: uppercase;
+}
+
+ol { 
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 50%;
+ 
+  
+}
+li {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+img {
+  border-radius: 50%;
 }
